@@ -12,9 +12,9 @@ Maria, the Chief Data Scientist at a New York City school district, has been tas
 After Maria's initial aggregation and analysis, it came to light that 9th grade students at Thomas High School had committed academic dishonesty, voiding their test scores. Because of this, Maria had to separate their data and recalculate all the analysis to exclude Thomas High School's 9th graders.
 
 ## Results
-Using bulleted lists and images of DataFrames as support, address the following questions.
+### Using bulleted lists and images of DataFrames as support, address the following questions.
 
-- **How is the district summary affected?** After the 9th graders were excluded, the average math score decreased from 79.0 to 78.9. The average reading score stayed the same at 81.9. The % Passing Math and % Passing Reading both decreased after excluding the 9th graders: currently at 74.8% and 85.7%, previously 75% and 86%
+- **How is the district summary affected?** After the 9th graders were excluded, the average math score decreased from 79.0 to 78.9. The average reading score stayed the same at 81.9. The % Passing Math and % Passing Reading both decreased after excluding the 9th graders: currently at 74.8% and 85.7%, previously 75% and 86%.
 
 - **How is the school summary affected?** Before the 9th graders were excluded, THS had math and reading scores of 83.4 and 83.8. After excluding them, THS has scores at 83.4 and 83.9. 
 
@@ -26,4 +26,5 @@ Using bulleted lists and images of DataFrames as support, address the following 
 - **Scores by school type** Charter Schools had an average math and reading score of 83.5 and 83.9, respectively. Thomas High Schools scores are 83.4 and 83.9, pretty close to the average! Before 9th graders were excluded, THS was at 83.4 and 83.8. Excluding the 9th graders brought THS's scores up.
 
 ## Summary
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+### Four Changes in the Updated Analysis
+After excluding the 9th graders at Thomas High School, one of the most obvious changes we see is in the student_data_df. Any 9th grade student from THS has their math and reading scores replaced with NaN. Next, we can see the average math and average reading scores lower in the district_summary_df. In our per_student_summary_df, we saw the the reading score for THS increase from 83.8 to 83.9. Lastly, in top_schools, THS went from 2nd in overall passing (at 90.9%) to the top school (at 97%).
