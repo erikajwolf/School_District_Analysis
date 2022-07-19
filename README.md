@@ -13,15 +13,36 @@ After Maria's initial aggregation and analysis, it came to light that 9th grade 
 - **How is the district summary affected?** After the 9th graders were excluded, the average math score decreased from 79.0 to 78.9. The average reading score stayed the same at 81.9. The % Passing Math and % Passing Reading both decreased after excluding the 9th graders: currently at 74.8% and 85.7%, previously 75% and 86%.
 
 ![Original_District_Summary](Original_District_Summary.png)
+![Challenge_District_Analysis](Challenge_District_Analysis.png)
 
 - **How is the school summary affected?** Before the 9th graders were excluded, THS had math and reading scores of 83.4 and 83.8. After excluding them, THS has scores at 83.4 and 83.9. 
 
+![Original_School_Summary](Original_School_Summary.png)
+![Challenge_School_Summary](Challenge_School_Summary.png)
+
 - **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?** Thomas High School becomes the #1 performer after excluding 9th grade scores (at 97% overall passing). They were originally at 90.1% overall passing.
+
+![Challenge_Top_Schools](Challenge_Top_Schools.png)
+
 **How does replacing the ninth-grade scores affect the following:**
 - **Math and reading scores by grade** Math and reading scores did not change for Grades 10, 11, and 12. The only change after the initial analysis is the ouput of the 9th grade scores. Originally 83.6 for math, 83.7 for reading. Now: NaN.
+
+![Challenge_nan_Grade](Challenge_nan_Grade.png)
+![Challenge_Grade_Math](Challenge_Grade_Math.png)
+![Challenge_Grade_Reading](Challenge_nan_Reading.png)
+
 - **Scores by school spending** Thomas High School, after excluding 9th graders' scores, currently exceeds the average math and reading scores at 83.4 and 83.9 respectively. The $631-$645 spending bucket's scores are 78.5 and 81.6. Before excluding the 9th graders, THS's scores were 83.4 and 83.9, still exceeding the spending bucket's average at 78.5 and 81.6.
+
+![Challenge_Spending_Summary](Challenge_Spending_Summary.png)
+![Challenge_Thomas_Spending](Challenge_Thomas_Spending.png)
+
 - **Scores by school size** Thomas High School is a medium sized school (1000-1999 students). After excluding the 9th graders, it falls perfectly in the average reading scores and just a hair short of the average math score--THS is at 84, Medium Schools is at 83.9 for reading, 83.3 and 83.4 for math, respectively). The scores were just about the same, compared to the average, before the 9th graders were excluded.
+
+![Challenge_School_Size](Challenge_School_Size.png)
+
 - **Scores by school type** Charter Schools had an average math and reading score of 83.5 and 83.9, respectively. Thomas High Schools scores are 83.4 and 83.9, pretty close to the average! Before 9th graders were excluded, THS was at 83.4 and 83.8. Excluding the 9th graders brought THS's scores up.
+
+![Challenge_School_type](Challenge_School_type.png)
 
 ## Summary
 ### Four Changes in the Updated Analysis
