@@ -29,7 +29,7 @@ After Maria's initial aggregation and analysis, it came to light that 9th grade 
 
 ![Challenge_nan_Grade](Challenge_nan_Grade.png)
 ![Challenge_Grade_Math](Challenge_Grade_Math.png)
-![Challenge_Grade_Reading](Challenge_nan_Reading.png)
+![Challenge_Grade_Reading](Challenge_Grade_Reading.png)
 
 - **Scores by school spending** Thomas High School, after excluding 9th graders' scores, currently exceeds the average math and reading scores at 83.4 and 83.9 respectively. The $631-$645 spending bucket's scores are 78.5 and 81.6. Before excluding the 9th graders, THS's scores were 83.4 and 83.9, still exceeding the spending bucket's average at 78.5 and 81.6.
 
