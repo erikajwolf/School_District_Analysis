@@ -1,5 +1,5 @@
 # School District Analysis
-![Voting_Summary](Voting_Summary.png)
+
 ## Overview
 ### Maria & The District Data
 Maria, the Chief Data Scientist at a New York City school district, has been tasked with aggregating and analyzing standardized test score data for all the high school students in this district. She takes a look at grades 9-12 at various high schools in the district, and has analyzed the data to identify trends in school performance. This information will help the school board and Superintendent make informed decisions regarding the school budgets and priorities. 
