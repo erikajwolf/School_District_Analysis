@@ -1,8 +1,4 @@
 # School District Analysis
-maria is chief data scientist ny city school district
-tasked with prepping standardized test data
-insights used to inform discussed and decisions at schhool district level
-task: aggregate data and show trends in performance
 ![Voting_Summary](Voting_Summary.png)
 ## Overview
 ### Maria & The District Data
@@ -15,6 +11,8 @@ After Maria's initial aggregation and analysis, it came to light that 9th grade 
 ### Using bulleted lists and images of DataFrames as support, address the following questions.
 
 - **How is the district summary affected?** After the 9th graders were excluded, the average math score decreased from 79.0 to 78.9. The average reading score stayed the same at 81.9. The % Passing Math and % Passing Reading both decreased after excluding the 9th graders: currently at 74.8% and 85.7%, previously 75% and 86%.
+
+![Original_District_Summary](Original_District_Summary.png)
 
 - **How is the school summary affected?** Before the 9th graders were excluded, THS had math and reading scores of 83.4 and 83.8. After excluding them, THS has scores at 83.4 and 83.9. 
 
